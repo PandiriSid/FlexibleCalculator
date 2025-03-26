@@ -63,8 +63,8 @@ http://localhost:8080
 
 ## Exception Handling
 
-Math error: Division by zero 
-Unsupported operation: POWER
+Math error: Division by zero,  
+Unsupported operation: POWER, 
 Any other error	Internal error occurred
 
 ## Technologies Used
@@ -78,15 +78,20 @@ SLF4J + Logback (logging)
 
 JUnit 5 (unit testing)
 
-## Design Principles
+## Design Principles and Strategies Used
 Strategy Pattern – each operation is encapsulated in its own class
 
 Open-Closed Principle – add new operations without changing existing logic
+
+Error Handling - Multiple exceptions along with the Global Exceptions are handled
+
+Enum for Operations - ADD, SUBTRACT, MULTIPLY, DIVIDE operations are written as Enum as it makes easier to add more operations in future
 
 Dependency Injection – operations wired via Spring Boot's IoC
 
 Clean Architecture – separation of controller, service, strategy, and model layers
 
+Testing - Unit testing is done to check if the modules are working as expected 
 
 
 ## Screenshots
