@@ -91,7 +91,8 @@ Clean Architecture – separation of controller, service, strategy, and model la
 
 ## Screenshots
 
-![GET request.png](https://github.com/PandiriSid/LyricsGenerator/assets/34942083/2a935a3d-83e8-4bd9-847f-958d9ec05ea0)
+![GET request](https://github.com/user-attachments/assets/fc7c38a1-b42e-41b1-9488-d2143bc7188e)
 
-![GET request.png](https://github.com/PandiriSid/LyricsGenerator/assets/34942083/2a935a3d-83e8-4bd9-847f-958d9ec05ea0)
+![POST request](https://github.com/user-attachments/assets/5efad49e-0bee-4d8b-bbd5-7d13f17211e1)
+
 
